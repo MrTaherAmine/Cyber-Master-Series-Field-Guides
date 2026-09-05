@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as follows."
+title: "Cyber Master Series Field Guides"
+type: dataset
+authors:
+  - family-names: "ELHOUARI"
+    given-names: "Taher Amine"
+year: 2026
+url: "https://github.com/MrTaherAmine/Cyber-Master-Series-Field-Guides"
+license: "CC-BY-4.0"
