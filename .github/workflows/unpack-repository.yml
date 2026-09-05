@@ -21,7 +21,11 @@ jobs:
 
           cp -a /tmp/cmsfg/Cyber-Master-Series-Field-Guides/. .
 
-          rm Cyber-Master-Series-Field-Guides.zip
+          # GitHub Actions tokens cannot create another workflow file.
+          # We will add this workflow manually after initialization.
+          rm -f .github/workflows/markdown-quality.yml
+
+          rm -f Cyber-Master-Series-Field-Guides.zip
 
       - name: Commit repository structure
         run: |
